@@ -41,5 +41,16 @@ So no idea if I'm supposed to be doing something when the instructions say:
 
 > Reload your JavaScript module and try the new functionality:
 
+---
 
+Skipped the entire part about downloading:
+
+```shell
+curl -O https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.18.1/babel.min.js
+```
+
+Because, there are already existing Babel needs I'm aware of (e.g. decorators)
+that make this not applicable.
+
+---
 
