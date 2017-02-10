@@ -54,3 +54,23 @@ that make this not applicable.
 
 ---
 
+### ReactDOM.server
+
+```shell
+lein trampoline run -m clojure.main build.clj
+node build/hello_cjs.js
+```
+
+Failed with:
+
+```
+Invariant Violation: EventPluginRegistry: Cannot inject event plugins that do not exist in the
+ plugin ordering, `ti`.
+```
+
+No warnings.
+
+
+---
+
+All done. :shrug:
